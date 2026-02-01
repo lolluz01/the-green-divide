@@ -11,7 +11,7 @@ Going beyond EU averages, the project highlights:
 - The gap between **Electricity** and **Transport** sector transitions  
 - Energy vulnerability revealed by the 2022 geopolitical crisis  
 
-📄 **[Read the Final Report (PDF)](report/report_finale.pdf)**
+📄 **[Read the Final Report (PDF)](report/final_report.pdf)**
 
 ---
 
@@ -84,4 +84,5 @@ Under the following terms:
 
 ### Author
 **Lorenzo Lecci**
+
 *Data Science Student*
