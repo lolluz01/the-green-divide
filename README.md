@@ -3,6 +3,18 @@
 
 ![Project Cover](report/cover_image.png)
 
+![Python](https://img.shields.io/badge/python-3670A0?logo=python&logoColor=white)
+![Pandas](https://img.shields.io/badge/pandas-%23150458?logo=pandas&logoColor=white)
+![Requests](https://img.shields.io/badge/requests-%23286140?logo=python&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/matplotlib-%2311557c?logo=python&logoColor=white)
+![Seaborn](https://img.shields.io/badge/seaborn-%234C72B0?logo=python&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626.svg?logo=Jupyter&logoColor=white)
+![Eurostat](https://img.shields.io/badge/Data-Eurostat-%23003399)
+![UNECE](https://img.shields.io/badge/Data-UNECE-%23418FDE)
+![OWID](https://img.shields.io/badge/Data-OWID-%23222222)
+![Datawrapper](https://img.shields.io/badge/Visualized_with-Datawrapper-%231B82EE)
+![Flourish](https://img.shields.io/badge/Visualized_with-Flourish-%23FF4A60)
+
 ## About the Project
 **The Green Divide** is a data analysis and visualization project exploring the uneven pace of the energy transition across Europe.
 
@@ -15,6 +27,19 @@ Going beyond EU averages, the project highlights:
 
 ---
 
+## 📊 Key Findings & Visualizations
+
+### The Transport vs. Electricity Gap
+While the electricity sector has seen rapid integration of renewables, the transport sector is severely lagging behind. 
+<div align="center">
+    <img src="Images/transport_vs_electricity_gap.png" width="800px" alt="Line chart showing transition speeds"/>
+</div>
+
+### Vulnerability and the 2022 Crisis
+The scatter plot below highlights the correlation between a country's renewable energy share and its reliance on imported energy during the geopolitical crisis.
+<div align="center">
+    <img src="Images/war_impact_scatter.png" width="800px" alt="Scatter plot of energy dependency"/>
+</div>
 ## Repository Structure
 
 ```text
@@ -22,11 +47,14 @@ The-Green-Divide/
 ├── data/
 │   ├── raw/          # Original data (Eurostat, UNECE, OWID)
 │   └── output/       # Cleaned CSVs for visualization
+├── images/           
+│   ├── cover_image.png
+│   └── transport_vs_electricity.png
+|   └── 
 ├── notebooks/
 │   └── my_project.ipynb
 ├── report/
-│   ├── report_finale.pdf
-│   └── cover_image.png
+│   └── report_finale.pdf
 ├── .gitignore
 └── requirements.txt
 ```
@@ -82,7 +110,9 @@ Under the following terms:
 
 ---
 
-### Author
-**Lorenzo Lecci**
+## Author
 
-*Data Science Student*
+**Lorenzo Lecci** *Data Science Student*
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lorenzo-lecci-793789297/)
+
