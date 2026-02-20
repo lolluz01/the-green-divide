@@ -15,6 +15,8 @@
 ![OWID](https://img.shields.io/badge/Data-OWID-%23222222)
 ![Datawrapper](https://img.shields.io/badge/Visualized_with-Datawrapper-%231B82EE)
 ![Flourish](https://img.shields.io/badge/Visualized_with-Flourish-%23FF4A60)
+
+[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-green.svg)](https://creativecommons.org/licenses/by/4.0/)
 ## 🌍 About the Project
 
 **The Green Divide** is a data analysis and visualization project exploring the uneven pace of the energy transition across Europe.
@@ -24,7 +26,7 @@ Going beyond EU averages, the project highlights:
 - Structural differences between European regions  
 - The gap between **Electricity** and **Transport** sector transitions  
 - Energy vulnerability revealed by the 2022 geopolitical crisis
-- 
+
 > **TL;DR:** The analysis reveals a widening "multi-speed" Europe. While the electricity sector is successfully integrating renewables, the transport sector is severely lagging. Furthermore, the 2022 crisis exposed how this green divide is no longer just an environmental issue, but a critical matter of national security and geopolitical autonomy.
 ---
 
@@ -33,13 +35,13 @@ Going beyond EU averages, the project highlights:
 ### 1. The Sectoral Anatomy: Greening the Grid, Failing Mobility
 Decomposing the aggregate data reveals a massive structural imbalance. The electricity sector exhibits successful, exponential growth—rising from ~15% to over 45%. In stark contrast, the transport sector remains the "sick man" of the transition, barely crossing the 10% threshold despite two decades of policy efforts. We are greening the grid but failing to decarbonize mobility.
 <div align="center">
-  <img src="images/line_sectoral_anatomy.png" width="800px" alt="Line chart of EU27 Renewable Energy Share by Sector"/>
+  <img src="images/line_sectoral_anatomy.png" width="600px" alt="Line chart of EU27 Renewable Energy Share by Sector"/>
 </div>
 
 ### 2. Geopolitics & Security: The Danger Zone
 The 2022 energy crisis redefined renewable energy from an environmental luxury to a critical national security asset. The scatter plot below demonstrates a strong inverse correlation: countries with higher renewable shares exhibit significantly lower fossil fuel import dependency. Major economies like Italy and Germany occupy the top-left quadrant ("Danger Zone"), reflecting the structural exposure that made them primary targets of the gas price shock.
 <div align="center">
-  <img src="images/scatter_dependency.png" width="800px" alt="Scatter plot: Renewables vs. Dependency"/>
+  <img src="images/scatter_dependency.png" width="600px" alt="Scatter plot: Renewables vs. Dependency"/>
 </div>
 
 ### 🔍 Dive Deeper
@@ -55,7 +57,7 @@ The-Green-Divide/
 │   ├── raw/          # Original data (Eurostat, UNECE, OWID)
 │   └── output/       # Cleaned CSVs for visualization
 ├── images/
-│   ├── map_geographic_divide.png       # Choropleth Map (UNECE)
+│   ├── map_geographic_divide.png       # Choropleth Map
 │   ├── line_sectoral_anatomy.png       # Line chart EU27 Sectors
 │   ├── line_regional_trends.png        # Line chart Macro-regions
 │   ├── slope_growth_rates.png          # Slope chart 2012-2022
@@ -69,8 +71,8 @@ The-Green-Divide/
 ├── .gitignore
 └── requirements.txt
 ```
-## How to Reproduce the Analysis
-```
+## ⚙️ How to Reproduce the Analysis
+
 ```bash
 git clone https://github.com/lolluz01/The-Green-Divide.git
 cd The-Green-Divide
@@ -80,7 +82,7 @@ jupyter notebook notebooks/my_project.ipynb
 
 All data processing steps are fully reproducible using the provided notebook.
 
-## Data & Methodology
+## 🔬 Data & Methodology
 Data sources include **Eurostat** (official EU statistics), **UNECE** (SDG indicators), and **Our World in Data**.
 
 ### Processing Pipeline
@@ -92,7 +94,7 @@ The analysis is automated via Python (`pandas`, `requests`). The workflow includ
 
 ---
 
-## Visualizations
+## 📈 Datasets for Dataviz
 The clean datasets in the `data/output/` folder are optimized for tools like **Flourish**, or **Datawrapper**.
 | Output File | Recommended Viz | Description |
 | :--- | :--- | :--- |
@@ -103,7 +105,7 @@ The clean datasets in the `data/output/` folder are optimized for tools like **F
 
 ---
 
-## License
+## 📄 License
 
 This project is licensed under the  
 **Creative Commons Attribution 4.0 International (CC BY 4.0)** license.
@@ -120,11 +122,8 @@ Under the following terms:
 
 ---
 
-## Author
-
-**Lorenzo Lecci** *Data Science Student*
+## 👨‍💻 Author
+**Lorenzo Lecci** 
+*Data Science Student*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lorenzo-lecci-793789297/)
-
-
-
