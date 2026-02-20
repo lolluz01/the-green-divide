@@ -68,9 +68,9 @@ The-Green-Divide/
 │   └── final_report.pdf
 ├── .gitignore
 └── requirements.txt
-
+```
 ## How to Reproduce the Analysis
-
+```
 ```bash
 git clone https://github.com/lolluz01/The-Green-Divide.git
 cd The-Green-Divide
@@ -125,5 +125,6 @@ Under the following terms:
 **Lorenzo Lecci** *Data Science Student*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lorenzo-lecci-793789297/)
+
 
 
