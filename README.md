@@ -1,4 +1,5 @@
 # The Green Divide  
+
 ### Europe’s Two-Speed Transition to 2030
 
 ![Project Cover](report/cover_image.png)
@@ -14,50 +15,59 @@
 ![OWID](https://img.shields.io/badge/Data-OWID-%23222222)
 ![Datawrapper](https://img.shields.io/badge/Visualized_with-Datawrapper-%231B82EE)
 ![Flourish](https://img.shields.io/badge/Visualized_with-Flourish-%23FF4A60)
+## 🌍 About the Project
 
-## About the Project
 **The Green Divide** is a data analysis and visualization project exploring the uneven pace of the energy transition across Europe.
 
 Going beyond EU averages, the project highlights:
+
 - Structural differences between European regions  
 - The gap between **Electricity** and **Transport** sector transitions  
-- Energy vulnerability revealed by the 2022 geopolitical crisis  
-
-📄 **[Read the Final Report (PDF)](report/final_report.pdf)**
-
+- Energy vulnerability revealed by the 2022 geopolitical crisis
+- 
+> **TL;DR:** The analysis reveals a widening "multi-speed" Europe. While the electricity sector is successfully integrating renewables, the transport sector is severely lagging. Furthermore, the 2022 crisis exposed how this green divide is no longer just an environmental issue, but a critical matter of national security and geopolitical autonomy.
 ---
 
 ## 📊 Key Findings & Visualizations
 
-### The Transport vs. Electricity Gap
-While the electricity sector has seen rapid integration of renewables, the transport sector is severely lagging behind. 
+### 1. The Sectoral Anatomy: Greening the Grid, Failing Mobility
+Decomposing the aggregate data reveals a massive structural imbalance. The electricity sector exhibits successful, exponential growth—rising from ~15% to over 45%. In stark contrast, the transport sector remains the "sick man" of the transition, barely crossing the 10% threshold despite two decades of policy efforts. We are greening the grid but failing to decarbonize mobility.
 <div align="center">
-    <img src="Images/transport_vs_electricity_gap.png" width="800px" alt="Line chart showing transition speeds"/>
+  <img src="images/line_sectoral_anatomy.png" width="800px" alt="Line chart of EU27 Renewable Energy Share by Sector"/>
 </div>
 
-### Vulnerability and the 2022 Crisis
-The scatter plot below highlights the correlation between a country's renewable energy share and its reliance on imported energy during the geopolitical crisis.
+### 2. Geopolitics & Security: The Danger Zone
+The 2022 energy crisis redefined renewable energy from an environmental luxury to a critical national security asset. The scatter plot below demonstrates a strong inverse correlation: countries with higher renewable shares exhibit significantly lower fossil fuel import dependency. Major economies like Italy and Germany occupy the top-left quadrant ("Danger Zone"), reflecting the structural exposure that made them primary targets of the gas price shock.
 <div align="center">
-    <img src="Images/war_impact_scatter.png" width="800px" alt="Scatter plot of energy dependency"/>
+  <img src="images/scatter_dependency.png" width="800px" alt="Scatter plot: Renewables vs. Dependency"/>
 </div>
-## Repository Structure
+
+### 🔍 Dive Deeper
+Want to explore the "Nordic Shield" geographic divide, the multi-speed growth rates, and the specific case study of Italy's "Gas Trap"? 
+
+**📄 [Read the full Data Analysis Report (PDF)](report/final_report.pdf)**
+
+## 📂 Repository Structure
 
 ```text
 The-Green-Divide/
 ├── data/
 │   ├── raw/          # Original data (Eurostat, UNECE, OWID)
 │   └── output/       # Cleaned CSVs for visualization
-├── images/           
-│   ├── cover_image.png
-│   └── transport_vs_electricity.png
-|   └── 
+├── images/
+│   ├── map_geographic_divide.png       # Choropleth Map (UNECE)
+│   ├── line_sectoral_anatomy.png       # Line chart EU27 Sectors
+│   ├── line_regional_trends.png        # Line chart Macro-regions
+│   ├── slope_growth_rates.png          # Slope chart 2012-2022
+│   ├── scatter_dependency.png          # Scatter plot Geopolitics
+│   └── area_italy_mix.png              # Stacked area chart Italy
 ├── notebooks/
+│   ├── cover_image.png
 │   └── my_project.ipynb
 ├── report/
-│   └── report_finale.pdf
+│   └── final_report.pdf
 ├── .gitignore
 └── requirements.txt
-```
 
 ## How to Reproduce the Analysis
 
@@ -115,4 +125,5 @@ Under the following terms:
 **Lorenzo Lecci** *Data Science Student*
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lorenzo-lecci-793789297/)
+
 
